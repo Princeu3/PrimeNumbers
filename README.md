@@ -3,18 +3,18 @@
 A Java application that efficiently generates all prime numbers up to a specified limit using the Sieve of Eratosthenes algorithm. This project demonstrates fundamental concepts in algorithm design, optimization, and data processing—key skills in data science.
 
 ## Table of Contents
-- Introduction
-- Algorithm Explanation
-- Project Structure
-- Installation
-- Usage
-- Sample Output
-- Performance Analysis
-- Applications
-- Contributing
-- License
-- Contact
-- Acknowledgments
+- [Introduction](#introduction)
+- [Algorithm Explanation](#algorithm-explanation)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Sample Output](#sample-output)
+- [Performance Analysis](#performance-analysis)
+- [Applications](#applications)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
