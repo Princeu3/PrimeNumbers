@@ -42,6 +42,7 @@ The Sieve of Eratosthenes algorithm works as follows:
 
 Here’s a simple snippet of how we initialize and mark non-prime numbers in the boolean array:
 
+```java
 boolean[] isPrime = new boolean[limit + 1];
 Arrays.fill(isPrime, true);
 isPrime[0] = isPrime[1] = false;
@@ -53,9 +54,11 @@ for (int i = 2; i * i <= limit; i++) {
         }
     }
 }
+```
 
 ## Project Structure
 
+```css
 prime-numbers-generator/
 ├── src/
 │   └── primeNumbers/
@@ -65,6 +68,7 @@ prime-numbers-generator/
 ├── .gitignore
 ├── README.md
 └── LICENSE
+```
 
 - **src/primeNumbers/PrimeNumbers.java**: The main Java class containing the implementation.
 - **assets/**: Directory for images and other assets.
@@ -76,33 +80,38 @@ prime-numbers-generator/
 To run this project, you need to have Java SE Development Kit (JDK) installed on your machine.
 
 1. **Clone the Repository:**
-   git clone https://github.com/yourusername/prime-numbers-generator.git
-
+```bash
+   git clone https://github.com/Princeu3/PrimeNumbers.git
+```
 2. **Navigate to the Project Directory:**
-   cd prime-numbers-generator
-
+```bash
+   cd primeNumbers
+```
 3. **Compile the Code:**
+```bash
    javac src/primeNumbers/PrimeNumbers.java
-
+```
 ## Usage
 
 You can run the program with a default limit or specify a custom limit as a command-line argument.
 
 ### Run with Default Limit (1000):
+```bash
 java src/primeNumbers/PrimeNumbers
-
+```
 ### Run with Custom Limit:
+```bash
 java src/primeNumbers/PrimeNumbers 5000
-
+```
 Replace `5000` with your desired upper limit.
 
 If an invalid argument is entered, the program will default to calculating primes up to 1000.
 
 ## Sample Output
-
+```css
 Prime numbers up to 1000:
 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 ...
-
+```
 Note: The output will display all prime numbers up to the specified limit.
 
 ## Performance Analysis
@@ -138,17 +147,21 @@ Contributions are welcome! If you'd like to contribute, follow these steps:
 
 1. **Fork the Repository**: Click the "Fork" button at the top right of this page.
 2. **Clone Your Fork**:
-   git clone https://github.com/yourusername/prime-numbers-generator.git
-
+```bash
+   git clone https://github.com/Princeu3/PrimeNumbers.git
+```    
 3. **Create a Feature Branch**:
+```bash
    git checkout -b feature/YourFeature
-
+```
 4. **Commit Your Changes**:
+```bash
    git commit -m "Add YourFeature"
-
+```
 5. **Push to Your Fork**:
+```bash
    git push origin feature/YourFeature
-
+```
 6. **Create a Pull Request**: Submit your changes for review.
 
 ## License
@@ -157,11 +170,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-**Your Name**
+**Prince Upadhyay**
 
-- Email: your.email@example.com
-- GitHub: yourusername
-- LinkedIn: Your LinkedIn Profile
+- Email: princeupadhyay1401@gmail.com
+- GitHub: Princeu3
+- LinkedIn: www.linkedin.com/in/princeu
 
 This project is part of my data science portfolio. It showcases my ability to implement efficient algorithms, optimize code, and handle data processing tasks relevant to data science.
 
