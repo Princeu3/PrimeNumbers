@@ -59,7 +59,7 @@ for (int i = 2; i * i <= limit; i++) {
 ## Project Structure
 
 ```css
-prime-numbers-generator/
+PrimeNumbers/
 ├── src/
 │   └── primeNumbers/
 │       └── PrimeNumbers.java
